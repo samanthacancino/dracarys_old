@@ -8,6 +8,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -82,7 +84,9 @@ h2 {
   color:white;
 }
 
-/* MEDIAQUERIS
+/* MEDIAQUERIS */
+
+/* header */
 @media all and (min-width:600px){
 .headerwrap{
   position: static;
@@ -102,9 +106,33 @@ h2 {
 .menu{
   height: 60px;
   align-items: center;
-}  */
-
-/*hero/
+}  
+}
+/*hero*/
+.hero{
+height: 378px;
+background-image: url(../img/Adalabers-dracarys.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+margin: 0;
+padding: 0;
+}
+.motto{
+    display:block;
+    position: relative;
+    top: 60px;
+    margin:0 auto;
+    padding:10px;
+    width: 260px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.39;
+    color: black;
+    font-family: 'Open Sans', sans-serif;  
+}
 
 /*content - fortalezas/
 
