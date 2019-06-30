@@ -39,6 +39,7 @@ p {
   margin: 0 15px;
   /* background-color: aquamarine; */
 }
+
 /*header*/
 
 .headerwrap{
@@ -127,7 +128,7 @@ p {
 /*hero*/
 .hero{
   height: 378px;
-  background-image: url(../img/Adalabers-dracarys.png);
+  background-image: url(../img/Adalabers-dracarys.jpg);
   background-size: cover;
   display: flex;
   align-items: flex-end;
