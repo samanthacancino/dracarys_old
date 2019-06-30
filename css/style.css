@@ -172,11 +172,12 @@ p {
   margin-top: 80px;
   /* margin-top: 0px; */
 }
-.h2-team {
+.team h2{
   /* width: 89px; */
   height: 45px;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   font-style: medium;
   line-height: 1.88;
   margin: auto;
@@ -234,7 +235,8 @@ h3 {
 /*content - articles/
 
 /*article*/
-.perfil {
+.perfiles {
+  font-weight: 500;
   
 }
 .img-perfil {
@@ -302,17 +304,18 @@ h3 {
   opacity: 0.75;
   /* font-family: OpenSans-Semibold; */
   font-size:14px;
-  font-weight: 600px;
-  font-style: normal;
-  font-stretch: normal;
+  font-weight: 700;
   line-height: 20px;
   letter-spacing: right;
   text-align:center;
   color: #54585a;
   margin-top: 20px;
-  margin-bottom: 30px;
-  
-  
+  margin-bottom: 30px;  
+}
+.who-we-are a {
+  text-decoration: none;
+  color: #54585a;
+  font-weight: 700;
 }
 .list {
   list-style: none;
