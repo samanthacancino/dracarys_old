@@ -6,7 +6,9 @@ Rubik
 */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  color: #54585a;
+  line-height: 24px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@ body {
 h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
+  font-weight: bold;
   color: #099d8d;
   margin: 0;
   margin-top: 30px;
@@ -24,32 +27,44 @@ h2 {
   font-size: 20px;
   margin: 0;
 }
+h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 2.05;
+}
+p {
+  margin: 0;
+}
+.container {
+  margin: 0 15px;
+  /* background-color: aquamarine; */
+}
 /*header*/
 
 .headerwrap{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .top{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    }
-    
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* name and logo */
 .backgroundname {
   background-color:rgba(9, 157, 141, 0.95);
   height: 60px;
   opacity: 95%;
   margin:0;
-
+  
 }
 .name {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
   margin: auto;
 }
 .h1-name{
@@ -89,79 +104,151 @@ h2 {
 
 /* header */
 @media all and (min-width:600px){
-.headerwrap{
-  position: static;
-}
-.top{
-  flex-direction: row;
-  height: 60px;
-}
-.backgroundname{
-  width: 50%;
-}
-.nav{
-  width: 50%;   
-  background-color:rgba(9, 157, 141, 0.95);
-  height: 60px;
-}
-.menu{
-  height: 60px;
-  align-items: center;
-}  
+  .headerwrap{
+    position: static;
+  }
+  .top{
+    flex-direction: row;
+    height: 60px;
+  }
+  .backgroundname{
+    width: 50%;
+  }
+  .nav{
+    width: 50%;   
+    background-color:rgba(9, 157, 141, 0.95);
+    height: 60px;
+  }
+  .menu{
+    height: 60px;
+    align-items: center;
+  }  
 }
 /*hero*/
 .hero{
-height: 378px;
-background-image: url(../img/Adalabers-dracarys.png);
-background-size: cover;
-display: flex;
-align-items: flex-end;
-margin: 0;
-padding: 0;
+  height: 378px;
+  background-image: url(../img/Adalabers-dracarys.png);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
 }
 .motto{
-    display:block;
-    position: relative;
-    top: 60px;
-    margin:0 auto;
-    padding:10px;
-    width: 260px;
-    background-color: white;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.39;
-    color: black;
-    font-family: 'Open Sans', sans-serif;  
+  display:block;
+  position: relative;
+  top: 60px;
+  margin:0 auto;
+  padding:10px;
+  width: 260px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.39;
+  color: black;
+  font-family: 'Open Sans', sans-serif;  
+}
+/* main */
+.page{
+  margin: 0;
+}
+/*content - strengths/
+p {
+  text-align: center
 }
 
-/*content - fortalezas/
+*/
+.team {
+  /* width: 320px; */
+  background-color: #ffffff;
+  margin-top: 80px;
+  /* margin-top: 0px; */
+}
+.h2-team {
+  /* width: 89px; */
+  height: 45px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: medium;
+  line-height: 1.88;
+  margin: auto;
+  color: #14d9c4;
+}
+/* article {
+  width: 290px;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+} */
 
+.blocks  {
+  display: flex;
+  flex-direction: column;
+  /* width: 320px; */
+  /* height: 290; */
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.08);
+  /* margin: 0; */
+}
+.blocks-strenghts {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blocks-weakness {
+  margin-bottom: 45px;
+}
+.spike {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg) translate(13px,9px);
+  margin: auto;
+  
+}
+
+h2 {margin: medium}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-style: 'Rubik';
+  font-size: 22px;
+  
+  
+  color: #099d8d;
+  
+}
 /*content - articles/
 
 /*article*/
 .perfil {
-
+  
 }
 .img-perfil {
-    width: 180px;
-    height: 180px;
-    border-radius: 4px;
-    border: solid 5px rgba(0, 0, 0, 0.08);
-    align-content: center;  
-    margin: 15px;
-  }
-.social-icons {
-
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  align-content: center;  
+  margin: 15px;
 }
-  .social {
+.social-icons {
+  
+}
+.social {
   color: #099d8d;
   display: flex;
   justify-content: center;
   font-size: 16px;
   list-style: none;
   padding-inline-start: 0px;
-
+  
 }
 .social-icon {
   display: inline-block;
@@ -176,5 +263,58 @@ padding: 0;
   top: 12px;
 }
 
-/*footer
-menu/
+
+
+/*footer */
+.footer{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  border-top:solid 1px lightgrey;
+  justify-content:center;
+  align-items: center
+}
+
+.dracarys{
+  /* font-family: OpenSans; */
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: normal;
+  text-align: center;
+  color:#b8b8b9;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.who-we-are{
+  display: block;
+  widows: 114px;;
+  opacity: 0.75;
+  /* font-family: OpenSans-Semibold; */
+  font-size:14px;
+  font-weight: 600px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: right;
+  text-align:center;
+  color: #54585a;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+  
+}
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  width: 115.9px;
+  height:auto;
+  margin-top:15px;
+  margin-bottom: 45px;
+} 
