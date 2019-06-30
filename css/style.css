@@ -235,11 +235,11 @@ h3 {
 /*content - articles/
 
 /*article*/
-.perfiles {
+.profiles {
   font-weight: 500;
   
 }
-.img-perfil {
+.img-profile {
   width: 180px;
   height: 180px;
   border-radius: 4px;
@@ -258,6 +258,10 @@ h3 {
   list-style: none;
   padding-inline-start: 0px;
   
+}
+.social a {
+  text-decoration: none;
+  color: #099d8d;
 }
 .social-icon {
   display: inline-block;
