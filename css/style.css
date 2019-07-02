@@ -217,11 +217,10 @@ h3 {
   
 }
 
-/* Responsive Who-We-Are */
 
 /*content - articles/
 
-/*article*/
+/*article from Who-We-Are*/
 .profiles {
   font-weight: 500;
   
@@ -267,7 +266,26 @@ h3 {
   top: 12px;
 }
 
+/* Responsive Who-We-Are */
+@media all and (min-width:768px){
+ .description {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+ }
+ .description-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+ .profile-description {
 
+ }
+ 
+}
+@media all and (min-width:1200px){
+
+}
 
 /*footer */
 .footer{
