@@ -113,7 +113,7 @@ a.anchor {
 /* MEDIAQUERIS */
 
 /* header */
-@media all and (min-width:600px){
+@media all and (min-width:768px){
   .headerwrap{
     position: static;
   }
@@ -274,7 +274,6 @@ h3 {
   border-top:solid 1px lightgrey;
   justify-content:center;
   align-items: center;
-  margin-top: 45px;
 }
 
 .dracarys{
@@ -319,3 +318,47 @@ h3 {
   margin-top:15px;
   margin-bottom: 45px;
 } 
+@media all and (min-width:768px){
+  .footer{
+    flex-flow: column wrap;
+    height: 170px;
+    align-content: space-between;
+    padding: 30px 45px 60px 45px;
+    box-sizing: border-box;
+
+  }
+
+  .dracarys{
+    order: 1;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+  }
+  .logo {
+    order: 2;
+    height: 50%;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  .who-we-are {
+    order: 3;
+    text-align: right;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+}
+
+@media all and (min-width:1200px){
+  .footer{
+    height: 161px;
+    padding: 30px 138px 47px 138px;
+  
+  }
+
+}
