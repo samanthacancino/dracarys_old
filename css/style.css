@@ -43,57 +43,42 @@ a.anchor {
   visibility: hidden;
 }
 
-/*header*/
-
+/*HEADER*/
 .headerwrap{
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 .top{
   margin: auto;
   display: flex;
   flex-direction: column;
-}
+  }
+/* name & logo */
 
-/* name and logo */
-.backgroundname {
+.name {
   background-color:rgba(9, 157, 141, 0.95);
   height: 60px;
-  opacity: 95%;
-  margin:0;
-  
-}
-.name {
+  width:100%;    
+  color: white;
   text-align: center;
-  padding-top: 15px;
-  margin: auto;
+  line-height: 60px;
 }
-.name h1{
+h1{
   padding: 0;
   margin: 0;
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
 }
 
-
-/* navigation */
+/* menu */
 
 .nav{
   background-color:rgba(20, 217, 196, 0.95);
-  opacity: 95%;
   height: 45px;
   margin: 0;
 }
 
 .menu{
-  font-family: 'Rubik', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
   margin: 0;
   padding: 0;
   height: 45px;
@@ -103,7 +88,7 @@ a.anchor {
   color: white;
   list-style: none;
   align-items: center;
-} 
+}
 
 .menu li a{
   text-decoration: none;
@@ -111,29 +96,27 @@ a.anchor {
 }
 
 /* MEDIAQUERIS */
+@media all and (min-width:768px){
 
-/* header */
-@media all and (min-width:600px){
-  .headerwrap{
-    position: static;
-  }
-  .top{
-    flex-direction: row;
-    height: 60px;
-  }
-  .backgroundname{
-    width: 50%;
-  }
-  .nav{
-    width: 50%;   
-    background-color:rgba(9, 157, 141, 0.95);
-    height: 60px;
-  }
-  .menu{
-    height: 60px;
-    align-items: center;
-  }  
+.top{
+  flex-direction: row;
+  height: 60px;
 }
+.name{
+  width: 50%;
+}
+.nav{
+  width: 50%;   
+  background-color:rgba(9, 157, 141, 0.95);
+  height: 60px;
+}
+.menu{
+  height: 60px;
+  align-items: center;
+}
+}
+/*HEADER*/
+
 /*hero*/
 .hero{
   height: 378px;
