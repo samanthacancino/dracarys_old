@@ -46,6 +46,7 @@ a.anchor {
 @media all and (min-width:768px){
 .container {
   margin: 0 45px;
+
 }
 }
 
@@ -265,9 +266,9 @@ h3 {
   align-content: center;  
   margin: 30px 0 15px 0;
 }
-.social-icons {
+/* .social-icons {
   
-}
+} */
 .social {
   color: #099d8d;
   display: flex;
@@ -296,12 +297,17 @@ h3 {
 
 /* Responsive Who-We-Are */
 @media all and (min-width:768px){
- .description {
+ /* .who {
+   margin-top: 30px;
+   margin-bottom: 30px;
+ } */
+  .description {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
    align-items: flex-start;
    text-align: left;
+   margin-bottom: 60px;
  }
  .description-reverse {
   display: flex;
@@ -309,15 +315,26 @@ h3 {
   justify-content: center;
   align-content: center;
   text-align: right;
+  margin-bottom: 60px;
 }
  .profile-description {
 
+ }
+ .profile {
+   margin-top: 41px;
  }
  .img-profile {
   width: 205px;
   height: 205px;
   margin: 0 30px;
  }
+ .social {
+justify-content: flex-end;
+margin-right: 30px; }
+
+ .social-reverse {
+justify-content: flex-start;
+margin-left: 30px; }
 }
 @media all and (min-width:1200px){
 
